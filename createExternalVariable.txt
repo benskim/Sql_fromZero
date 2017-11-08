@@ -1,0 +1,30 @@
+SQL> VARIABLE pname VARCHAR2(34);
+SQL> VARIABLE pkor NUMBER;
+SQL> VARIABLE peng NUMBER;
+SQL> VARIABLE pmath NUMBER;
+SQL> CALL std_select(1,:pname,:pkor,:peng,:pmath);
+
+호출이 완료되었습니다.
+
+SQL> PRINT pname pkor peng pmath;
+
+PNAME
+---------------------------------------------
+홍길동
+
+
+      PKOR
+----------
+        80
+
+
+      PENG
+----------
+        78
+
+
+     PMATH
+----------
+        69
+
+SQL>
